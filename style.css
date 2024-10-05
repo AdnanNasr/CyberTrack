@@ -1,7 +1,46 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 .custom-img {
-    max-width: 100%; /* لجعل الصورة تتناسب مع الحجم */
-    height: auto; /* للحفاظ على نسبة العرض إلى الارتفاع */
-    border-radius: 15px; /* لجعل الزوايا دائرية */
-    border: 2px solid white; /* لون الحدود */
+    max-width: 100%;
+    height: auto; 
+    border-radius: 15px; 
+    border: 2px solid white; 
+}
+
+.card {
+    border-radius: 20px; 
+}
+
+.footer {
+    /* background-color: #1f1f1f; */
+    padding: 40px 0;
+}
+.footer h5 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffc107;
+    padding-bottom: 10px;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer a:hover {
+    color: #ffc107;
+}
+.footer .tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.footer .tags a {
+    background-color: #1b6666;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+.footer .tags a:hover {
+    background-color: #F2A541;
 }
